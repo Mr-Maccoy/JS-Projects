@@ -9,7 +9,7 @@ Este repositorio contiene una colección de proyectos de JavaScript para practic
 Consulta el clima en tu ciudad en tiempo real.
 
 ### [To Do App](ToDoList/index.html)
-![To Do App](https://cdn-icons-png.flaticon.com/512/2387/2387635.png)
+<img src="https://cdn-icons-png.flaticon.com/512/2387/2387635.png" alt="To Do App" width="100">
 Organiza tus tareas diarias de manera sencilla.
 
 ---
