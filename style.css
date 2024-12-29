@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background: rgb(0, 20, 109);
+    color: beige;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 34px;
+    margin-bottom: 30px;
+   
+}
+
+.proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+   
+    
+}
+
+.proyectos section{
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.proyectos section img {
+    max-width: 50%;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.proyectos section h3{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+
+}
+.proyectos section p{
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #555;
+
+}
+.proyectos section button {
+    background-color: #007bff; /* Color del botón */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 1em;
+}
+
+.proyectos section button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+}
