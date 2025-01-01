@@ -4,11 +4,11 @@ Este repositorio contiene una colección de proyectos de JavaScript para practic
 
 ## Proyectos Incluidos
 
-### [Weather App](weatherApp/index.html)
+### [Weather App](https://mr-maccoy.github.io/JS-Projects/weatherApp/index.html)
 <img src="https://cdn-icons-png.flaticon.com/512/5903/5903803.png" alt="Weather App" width="100">
 Consulta el clima en tu ciudad en tiempo real.
 
-### [To Do App](ToDoList/index.html)
+### [To Do App](https://mr-maccoy.github.io/JS-Projects/ToDoList/index.html)
 <img src="https://cdn-icons-png.flaticon.com/512/2387/2387635.png" alt="To Do App" width="100">
 Organiza tus tareas diarias de manera sencilla.
 
