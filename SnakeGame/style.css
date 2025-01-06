@@ -8,6 +8,7 @@
 }
 
 header{
+    
     color: beige;
     font-weight: bold;
     text-align: center;
@@ -15,11 +16,20 @@ header{
     font-size: 34px;
     margin-bottom: 30px;
     background: olivedrab;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 canvas{
+    
     margin-top: 5px;
-    width: 100%;
+    
     border-style: solid ;
     
 

@@ -3,17 +3,36 @@ function draw(){
     const c = document.getElementById("myCanvas");
     if(c.getContext){
         const ctx = c.getContext("2d");
-        ctx.fillStyle="rgb(200 0 0)";
-        ctx.fillRect(10, 10, 50, 50);
+        
+        ctx.beginPath();
+        ctx.moveTo(0,0);
+        ctx.lineTo(40,50);
+        ctx.lineTo(300,50);
+        ctx.lineTo(300,200);
+        ctx.lineTo(300,200);
+        ctx.lineTo(40,50);
+        ctx.lineTo(40,0);
+        ctx.stroke();
 
-        ctx.fillStyle = "rgb(0 0 200 / 50%)";
-        ctx.fillRect(30, 30, 50, 50);
-        // ctx.moveTo(0,0);
-        // ctx.lineTo(800,200);
-        // ctx.stroke();
     }
 }
 draw();
 
-
+let x = 0;
+let y = 0;
+document.addEventListener("keydown", event =>{
+    if(event.key ==="ArrowUp"){
+         x++;
+        console.log('eje x: '+ x);
+    }else if(event.key ==="ArrowDown"){
+        x--;
+        console.log('eje x: '+x);
+    }else if(event.key ==="ArrowRight"){
+        y++;
+        console.log('eje y: '+y);
+    }else if(event.key ==="ArrowLeft"){
+        y--;
+        console.log('eje y: '+y);
+    }
+})
 
